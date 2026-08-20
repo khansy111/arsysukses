@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0,
+          maximum-scale=1.0, user-scalable=no">
+
+    <title>For You, Sheila</title>
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Poppins:wght@300;400;500&display=swap"
+          rel="stylesheet">
+
+    <!-- ICON -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- FLOATING DECORATION -->
+    <div id="floating-decorations"></div>
+
+    <!-- ================================================
+         PIN SCREEN
+    ================================================= -->
+
+    <section id="lock-screen" class="page active">
+
+        <div class="lock-content">
+
+            <div class="lock-flower">
+                🌷
+            </div>
+
+            <h1>
+                For You, Sheila
+            </h1>
+
+            <p class="subtitle">
+                Enter the secret code
+            </p>
+
+            <div id="pin-display" class="pin-display">
+
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+
+            </div>
+
+            <div class="keypad">
+
+                <button class="key">1</button>
+                <button class="key">2</button>
+                <button class="key">3</button>
+
+                <button class="key">4</button>
+                <button class="key">5</button>
+                <button class="key">6</button>
+
+                <button class="key">7</button>
+                <button class="key">8</button>
+                <button class="key">9</button>
+
+                <button class="key clear-key">
+                    ×
+                </button>
+
+                <button class="key">0</button>
+
+                <button class="key backspace">
+                    <i class="fas fa-delete-left"></i>
+                </button>
+
+            </div>
+
+            <p class="hint">
+                Hint: 1111 💗
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================================================
+         GIFT OPENING
+    ================================================= -->
+
+    <section id="gift-intro"
+             class="page hidden">
+
+        <div class="intro-content">
+
+            <div class="tiny-flower">
+                🌷
+            </div>
+
+            <p class="intro-small">
+                A little surprise for you
+            </p>
+
+            <div id="gift-box"
+                 class="gift-box">
+
+                <div class="gift-lid">
+
+                    <div class="gift-bow">
+
+                        <span></span>
+                        <span></span>
+
+                    </div>
+
+                </div>
+
+                <div class="gift-body">
+
+                    <div class="gift-ribbon vertical"></div>
+
+                    <div class="gift-ribbon horizontal"></div>
+
+                </div>
+
+            </div>
+
+            <h1 class="gift-title">
+                For You, Sheila
+            </h1>
+
+            <p id="gift-tap"
+               class="tap-text">
+
+                Tap the gift to open
+
+            </p>
+
+            <div class="tap-heart">
+                <i class="fas fa-heart"></i>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================================================
+         LOADING
+    ================================================= -->
+
+    <section id="loading-screen"
+             class="page hidden">
+
+        <div class="loading-content">
+
+            <div class="loading-flower">
+                🌸
+            </div>
+
+            <p>
+                Preparing your surprise...
+            </p>
+
+            <div class="loading-dots">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================================================
+         MAIN WEBSITE
+    ================================================= -->
+
+    <main id="main-content"
+          class="hidden">
+
+        <!-- MUSIC BUTTON -->
+
+        <button id="global-music-btn">
+
+            <i class="fas fa-music"></i>
+
+        </button>
+
+
+        <!-- ============================================
+             HERO
+        ============================================= -->
+
+        <section class="section hero-section reveal">
+
+            <div class="hero-decoration">
+                ✿
+            </div>
+
+            <p class="small-caps">
+                ♡ Your Special Day ♡
+            </p>
+
+            <h1 class="hero-title">
+
+                HAPPY BIRTHDAY
+
+                <br>
+
+                <span>SHEILA</span>
+
+            </h1>
+
+            <div class="divider"></div>
+
+            <p class="hero-date">
+                Today - The most special day
+            </p>
+
+            <p class="hero-quote">
+
+                "Wishing you happiness,
+                good health, and all your
+                dreams come true." 💗
+
+            </p>
+
+        </section>
+
+
+        <!-- ============================================
+             FLOWER MESSAGE
+        ============================================= -->
+
+        <section class="flower-section reveal">
+
+            <div class="flower-bouquet">
+
+                <span>🌼</span>
+                <span>🌻</span>
+                <span>🌷</span>
+                <span>🌸</span>
+
+            </div>
+
+            <p class="flower-message">
+
+                Ini mungkin sederhana,
+
+                <br>
+
+                tapi aku berharap ini bisa
+                membuat harimu sedikit
+                lebih indah.
+
+            </p>
+
+            <div class="heart-pulse">
+                💕
+
+            </div>
+
+        </section>
+
+
+        <!-- ============================================
+             LETTER
+        ============================================= -->
+
+        <section class="section letter-section reveal">
+
+            <p class="small-caps">
+                ♡ FROM MY HEART ♡
+            </p>
+
+            <h2 class="section-title">
+                A Letter For You
+            </h2>
+
+            <div class="deco-icons">
+                ✿　♡　✿
+            </div>
+
+            <p class="sub-heading">
+
+                Untuk seseorang yang paling
+                berarti dan paling spesial,
+
+            </p>
+
+
+            <div class="letter-container">
+
+                <div class="letter-content">
+
+                    <p>
+                        My dearest Sheila,
+                    </p>
+
+                    <p>
+                        Di hari yang spesial ini,
+                        aku ingin mengucapkan
+                        selamat ulang tahun untukmu.
+                    </p>
+
+                    <p>
+                        Semoga di usia yang baru
+                        ini kamu selalu dikelilingi
+                        hal-hal baik, kebahagiaan,
+                        dan orang-orang yang tulus
+                        menyayangimu.
+                    </p>
+
+                    <p>
+                        Semoga semua impian dan
+                        harapan yang kamu punya
+                        perlahan bisa menjadi nyata.
+                    </p>
+
+                    <p>
+                        Jangan lupa untuk selalu
+                        tersenyum dan tetap menjadi
+                        dirimu sendiri.
+                    </p>
+
+                    <p>
+                        Terima kasih sudah menjadi
+                        seseorang yang begitu berarti.
+                    </p>
+
+                    <p>
+                        Happy Birthday, Sheila. 💗
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ============================================
+             PLAYLIST
+        ============================================= -->
+
+        <section class="section playlist-section reveal">
+
+            <i class="fas fa-birthday-cake header-icon"></i>
+
+            <p class="small-caps">
+                TODAY
+            </p>
+
+            <h2 class="section-title">
+                Your Very Special Day
+            </h2>
+
+            <p class="sub-heading">
+                Celebrating you, today and always
+            </p>
+
+
+            <div class="playlist-heading">
+
+                <p class="small-caps">
+                    ♫ OUR SONGS ♫
+                </p>
+
+                <h2 class="section-title">
+                    Special Playlist
+                </h2>
+
+                <p class="sub-heading">
+                    Songs that remind me of you
+                </p>
+
+            </div>
+
+
+            <!-- MUSIC PLAYER -->
+
+            <div class="music-player">
+
+                <div class="cover-art">
+
+                    <div class="disc">
+
+                        <div class="disc-center"></div>
+
+                    </div>
+
+                </div>
+
+                <h3 id="song-title">
+                    Shape of My Heart
+                </h3>
+
+                <p id="song-artist">
+                    Backstreet Boys
+                </p>
+
+
+                <div id="progress-container"
+                     class="progress-container">
+
+                    <div id="progress"
+                         class="progress-bar"></div>
+
+                </div>
+
+
+                <div class="time-info">
+
+                    <span id="current-time">
+                        0:00
+                    </span>
+
+                    <span id="duration">
+                        0:00
+                    </span>
+
+                </div>
+
+
+                <div class="controls">
+
+                    <button id="prev-btn">
+
+                        <i class="fas fa-backward-step"></i>
+
+                    </button>
+
+                    <button id="play-btn"
+                            class="play-btn-large">
+
+                        <i class="fas fa-play"></i>
+
+                    </button>
+
+                    <button id="next-btn">
+
+                        <i class="fas fa-forward-step"></i>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- PLAYLIST -->
+
+            <div class="playlist-list">
+
+                <div class="playlist-item active"
+                     data-index="0">
+
+                    <i class="fas fa-music"></i>
+
+                    <div class="song-info">
+
+                        <h4>
+                            Shape of My Heart
+                        </h4>
+
+                        <p>
+                            Backstreet Boys
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="playlist-item"
+                     data-index="1">
+
+                    <i class="fas fa-music"></i>
+
+                    <div class="song-info">
+
+                        <h4>
+                            Angel Baby
+                        </h4>
+
+                        <p>
+                            Troye Sivan
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="playlist-item"
+                     data-index="2">
+
+                    <i class="fas fa-music"></i>
+
+                    <div class="song-info">
+
+                        <h4>
+                            My Love
+                        </h4>
+
+                        <p>
+                            Westlife
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ============================================
+             FINAL GIFT
+        ============================================= -->
+
+        <section id="final-section"
+                 class="section final-section reveal">
+
+            <p class="small-caps">
+                ONE LAST SURPRISE
+            </p>
+
+            <h2 class="section-title">
+
+                There's something
+                <br>
+                left for you...
+
+            </h2>
+
+
+            <div id="final-gift"
+                 class="gift-box small">
+
+                <div class="gift-lid">
+
+                    <div class="gift-bow">
+
+                        <span></span>
+                        <span></span>
+
+                    </div>
+
+                </div>
+
+                <div class="gift-body">
+
+                    <div class="gift-ribbon vertical"></div>
+
+                    <div class="gift-ribbon horizontal"></div>
+
+                </div>
+
+            </div>
+
+
+            <p id="final-tap"
+               class="tap-text">
+
+                Tap to open 💗
+
+            </p>
+
+        </section>
+
+
+        <!-- ============================================
+             FINAL MESSAGE
+        ============================================= -->
+
+        <section id="final-message"
+                 class="final-message hidden">
+
+            <div class="final-message-inner">
+
+
+                <!-- FOTO -->
+
+                <div class="final-photo-wrapper">
+
+                    <div class="photo-glow"></div>
+
+                    <img
+                        src="assets/images/final-photo.jpg"
+                        alt="Our special moment"
+                        class="final-photo"
+                        onerror="this.style.display='none'; document.querySelector('.photo-placeholder').style.display='flex';"
+                    >
+
+                    <div class="photo-placeholder">
+
+                        <i class="fas fa-image"></i>
+
+                        <span>
+                            Tambahkan foto di
+                            assets/images/final-photo.jpg
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="final-flower">
+                    🌸
+                </div>
+
+
+                <p class="small-caps">
+                    WITH ALL MY HEART
+                </p>
+
+
+                <h2>
+
+                    May your life always be
+
+                    <br>
+
+                    <span>
+                        filled with flowers
+                    </span>
+
+                </h2>
+
+
+                <div class="final-divider"></div>
+
+
+                <p class="final-text">
+
+                    Happy birthday, Sheila.
+
+                    <br><br>
+
+                    Semoga tahun ini membawa
+                    banyak hari bahagia, banyak
+                    senyuman, dan banyak hal
+                    indah yang datang kepadamu.
+
+                    <br><br>
+
+                    Semoga semua doa dan
+                    harapanmu menemukan
+                    jalannya masing-masing.
+
+                    <br><br>
+
+                    Terima kasih sudah menjadi
+                    seseorang yang begitu berarti.
+
+                </p>
+
+
+                <div class="final-heart">
+                    💕
+                </div>
+
+
+                <p class="ending">
+                    Always keep blooming.
+                </p>
+
+
+            </div>
+
+        </section>
+
+
+        <div class="bottom-spacer"></div>
+
+    </main>
+
+
+    <!-- AUDIO -->
+
+    <audio id="audio"
+           src="assets/music/song1.mp3"
+           preload="metadata">
+    </audio>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
